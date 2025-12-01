@@ -13,10 +13,7 @@ st.title("Calculadora Média Harmônica UFRGS 2026")
 
 st.warning("⚠️ **Atenção:** O cálculo abaixo utiliza os **pesos específicos para o curso de MEDICINA**.")
 
-st.info(
-    "ℹ️ **Dados Atualizados:** Médias e desvios padrão baseados no gabarito oficial preliminar, "
-    "conforme dados extraídos do site da UFRGS em **01/12/2025**."
-)
+st.info("ℹ️ **Nota de Atualização:** Médias e desvios conforme publicado em **1 de Dezembro de 2025** (gabarito preliminar). Há grande chance de alteração nos próximos dias em várias disciplinas.")
 
 st.divider()
 
@@ -120,4 +117,5 @@ if st.button("Calcular Média Final", type="primary"):
         )
 
     st.markdown("---")
+
     st.caption("Desenvolvido para auxiliar vestibulandos de Medicina da UFRGS.")
