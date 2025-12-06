@@ -13,7 +13,7 @@ st.title("Calculadora Média Harmônica UFRGS 2026")
 
 st.warning("⚠️ **Atenção:** O cálculo abaixo utiliza os **pesos específicos para o curso de MEDICINA**.")
 
-st.info("ℹ️ **Nota de Atualização:** Médias e desvios conforme publicado em **1 de Dezembro de 2025** (gabarito preliminar). Há grande chance de alteração nos próximos dias em várias disciplinas.")
+st.info("ℹ️ **Nota de Atualização:** Médias e desvios conforme publicado em **5 de Dezembro de 2025** (histograma final).")
 
 st.divider()
 
@@ -23,10 +23,10 @@ dados_fixos = {
     "Física":           {"media": 5.6696, "desvio": 2.7158, "peso": 1},
     "Literatura":       {"media": 8.1423, "desvio": 3.2892, "peso": 1},
     "Língua Portuguesa":{"media": 8.9877, "desvio": 2.3580, "peso": 3},
-    "Biologia":         {"media": 6.1949, "desvio": 2.6064, "peso": 3},
+    "Biologia":         {"media": 6.9882, "desvio": 2.5545, "peso": 3},
     "Química":          {"media": 5.2824, "desvio": 2.4953, "peso": 2},
-    "Geografia":        {"media": 5.8837, "desvio": 2.2946, "peso": 1},
-    "História":         {"media": 7.9046, "desvio": 2.9607, "peso": 1},
+    "Geografia":        {"media": 6.1019, "desvio": 2.4887, "peso": 1},
+    "História":         {"media": 7.9697, "desvio": 3.0375, "peso": 1},
     "Matemática":       {"media": 5.3712, "desvio": 3.2690, "peso": 1},
 }
 
@@ -119,3 +119,4 @@ if st.button("Calcular Média Final", type="primary"):
     st.markdown("---")
 
     st.caption("Desenvolvido para auxiliar vestibulandos de Medicina da UFRGS.")
+
