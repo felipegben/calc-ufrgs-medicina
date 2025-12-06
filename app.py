@@ -32,7 +32,7 @@ dados_fixos = {
 
 # --- INTERFACE DE ENTRADA ---
 st.subheader("Informe seu número de acertos")
-st.caption("Insira quantos acertos você teve em cada prova (de 0 a 25).")
+st.caption("Insira quantos acertos você teve em cada prova (de 0 a 15).")
 
 opcao_lingua = st.radio("Qual sua Língua Estrangeira?", ("Inglês", "Espanhol"))
 
@@ -119,4 +119,5 @@ if st.button("Calcular Média Final", type="primary"):
     st.markdown("---")
 
     st.caption("Desenvolvido para auxiliar vestibulandos de Medicina da UFRGS.")
+
 
